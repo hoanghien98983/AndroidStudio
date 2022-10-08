@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title=""
+        android:icon="@drawable/menuadd"
+        app:showAsAction="always"
+        android:id="@+id/menu"/>
+
+    <item android:title="Cài đặt"
+        android:id="@+id/menuCaidat"/>
+
+    <item android:title="Bảo mật"
+        android:id="@+id/menuBaomat"/>
+
+    <item android:title="Hotline"
+        android:id="@+id/menuHotline"/>
+
+    <item android:title="Tìm kiếm"
+        android:id="@+id/menuTimkiem"/>
+
+    <item android:title="Hỗ trợ"
+        android:id="@+id/menuHotro"/>
+</menu>
