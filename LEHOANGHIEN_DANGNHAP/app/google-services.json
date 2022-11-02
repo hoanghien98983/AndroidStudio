@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "971560000498",
+    "project_id": "lehoanghien141",
+    "storage_bucket": "lehoanghien141.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971560000498:android:c5149d65ce8b6a0508296b",
+        "android_client_info": {
+          "package_name": "com.example.lehoanghien_dangnhap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "971560000498-qrhd7tgh5sdrqgfa8q2391gg0i2tsapq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDor0LMM9dM_NkR0KXOmjnT4JdhLJTE0I4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "971560000498-qrhd7tgh5sdrqgfa8q2391gg0i2tsapq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

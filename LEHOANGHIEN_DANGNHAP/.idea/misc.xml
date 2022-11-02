@@ -4,11 +4,21 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/lhien/AndroidStudioProjects/LEHOANGHIEN_DANGNHAP/app/src/main/res/drawable/gradient.xml" value="0.2415" />
+        <entry key="..\:/Users/lhien/AndroidStudioProjects/LEHOANGHIEN_DANGNHAP/app/src/main/res/layout/activity_crud.xml" value="0.2807971014492754" />
         <entry key="..\:/Users/lhien/AndroidStudioProjects/LEHOANGHIEN_DANGNHAP/app/src/main/res/layout/activity_main.xml" value="0.28125" />
         <entry key="..\:/Users/lhien/AndroidStudioProjects/LEHOANGHIEN_DANGNHAP/app/src/main/res/layout/activity_main2.xml" value="0.2803442028985507" />
         <entry key="..\:/Users/lhien/AndroidStudioProjects/LEHOANGHIEN_DANGNHAP/app/src/main/res/layout/activity_main3.xml" value="0.2807971014492754" />
+        <entry key="..\:/Users/lhien/AndroidStudioProjects/LEHOANGHIEN_DANGNHAP/app/src/main/res/layout/activity_main4.xml" value="0.2807971014492754" />
+        <entry key="..\:/Users/lhien/AndroidStudioProjects/LEHOANGHIEN_DANGNHAP/app/src/main/res/layout/activity_main5.xml" value="0.2807971014492754" />
+        <entry key="..\:/Users/lhien/AndroidStudioProjects/LEHOANGHIEN_DANGNHAP/app/src/main/res/layout/activity_main6.xml" value="0.2807971014492754" />
+        <entry key="..\:/Users/lhien/AndroidStudioProjects/LEHOANGHIEN_DANGNHAP/app/src/main/res/layout/activity_main7.xml" value="0.2807971014492754" />
+        <entry key="..\:/Users/lhien/AndroidStudioProjects/LEHOANGHIEN_DANGNHAP/app/src/main/res/layout/activity_main8.xml" value="0.2807971014492754" />
+        <entry key="..\:/Users/lhien/AndroidStudioProjects/LEHOANGHIEN_DANGNHAP/app/src/main/res/layout/activity_main9.xml" value="0.2807971014492754" />
+        <entry key="..\:/Users/lhien/AndroidStudioProjects/LEHOANGHIEN_DANGNHAP/app/src/main/res/layout/activity_themvasua.xml" value="0.2807971014492754" />
         <entry key="..\:/Users/lhien/AndroidStudioProjects/LEHOANGHIEN_DANGNHAP/app/src/main/res/layout/customdialog.xml" value="0.28125" />
+        <entry key="..\:/Users/lhien/AndroidStudioProjects/LEHOANGHIEN_DANGNHAP/app/src/main/res/layout/dialog_thembaihat.xml" value="0.2807971014492754" />
         <entry key="..\:/Users/lhien/AndroidStudioProjects/LEHOANGHIEN_DANGNHAP/app/src/main/res/layout/dong_nhac.xml" value="0.2807971014492754" />
+        <entry key="..\:/Users/lhien/AndroidStudioProjects/LEHOANGHIEN_DANGNHAP/app/src/main/res/layout/layout_song_item.xml" value="0.2807971014492754" />
         <entry key="..\:/Users/lhien/AndroidStudioProjects/LEHOANGHIEN_DANGNHAP/app/src/main/res/menu/menu_demo.xml" value="0.35208333333333336" />
       </map>
     </option>

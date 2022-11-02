@@ -17,6 +17,7 @@ public class MainActivity2 extends AppCompatActivity {
     private Button btnnthoat;
     Button btndanhsach;
     MenuItem menuItem;
+    Button btnchinhsua;
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -57,6 +58,13 @@ public class MainActivity2 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        btnchinhsua.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity2.this,MainActivity9.class);
+                startActivity(intent);
+            }
+        });
         btnnthoat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -85,6 +93,7 @@ public class MainActivity2 extends AppCompatActivity {
     private void Anhxa() {
         btnnthoat = (Button) findViewById(R.id.buttonthoat) ;
         btndanhsach = (Button) findViewById(R.id.buttondanhsach);
+        btnchinhsua = (Button) findViewById(R.id.buttonchinhsua);
         emailImageview = (ImageView) findViewById(R.id.email_imagview);
         phoneImageview = (ImageView) findViewById(R.id.phone_imagview);
         videoImageview = (ImageView) findViewById(R.id.video_imagview);

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:background="#FFCCFF"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#110000"
+        android:gravity="center"
+        android:padding="10dp"
+        android:id="@+id/txtthembaihat"
+        android:text="THÊM BÀI HÁT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:hint="Nhập tên bài hát"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/txtthembaihat"
+        android:id="@+id/edittexttenbai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="THÊM"
+        android:layout_below="@id/txtthembaihat"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="80dp"
+        android:id="@+id/btnthem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="HỦY"
+        android:layout_toRightOf="@id/btnthem"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_below="@id/txtthembaihat"
+        android:id="@+id/btnhuy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

@@ -2,9 +2,13 @@ package com.example.lehoanghien_dangnhap;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
+import android.icu.text.Transliterator;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -14,6 +18,7 @@ public class MainActivity3 extends AppCompatActivity {
     ArrayList<Nhac> arrayNhac;
     NhacAdapter adapter;
     MenuItem menuItem;
+
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -26,6 +31,7 @@ public class MainActivity3 extends AppCompatActivity {
             default:break;
         }
 
+ //       if(item.getItemId() == R.id.menu)
         return super.onOptionsItemSelected(item);
     }
 
@@ -38,13 +44,45 @@ public class MainActivity3 extends AppCompatActivity {
         adapter = new NhacAdapter(this, R.layout.dong_nhac, arrayNhac);
         lvNhac.setAdapter(adapter);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        lvNhac.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+                if(position==0){
+                    Intent intent = new Intent();
+                    intent.setClass(MainActivity3.this,MainActivity4.class);
+                    startActivity(intent);
+                }
+                if(position==1){
+                    Intent intent = new Intent();
+                    intent.setClass(MainActivity3.this,MainActivity5.class);
+                    startActivity(intent);
+                }
+                if(position==2){
+                    Intent intent = new Intent();
+                    intent.setClass(MainActivity3.this,MainActivity6.class);
+                    startActivity(intent);
+                }
+                if(position==3){
+                    Intent intent = new Intent();
+                    intent.setClass(MainActivity3.this,MainActivity7.class);
+                    startActivity(intent);
+                }
+                if(position==4){
+                    Intent intent = new Intent();
+                    intent.setClass(MainActivity3.this,MainActivity8.class);
+                    startActivity(intent);
+                }
+            }
+        });
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu){
         getMenuInflater().inflate(R.menu.menu_demo, menu);
-
         return super.onCreateOptionsMenu(menu);
+
     }
+
 
     private void AnhXa() {
         lvNhac = (ListView) findViewById(R.id.listviewnhac);
