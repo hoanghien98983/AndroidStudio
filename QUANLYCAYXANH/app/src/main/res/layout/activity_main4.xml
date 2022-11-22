@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+
+    <TextView
+        android:id="@+id/txt7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:text="Cây kim tiền"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="Loại cây: Cây cảnh"
+        app:layout_constraintBottom_toTopOf="@+id/txt9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt7"
+        app:layout_constraintVertical_bias="0.106" />
+
+
+    <TextView
+        android:id="@+id/txt9"
+        android:layout_width="410dp"
+        android:layout_height="83dp"
+        android:text="Đây là loại cây rất được ưa chuộng trồng trong văn phòng và nhà ở hiện nay. Cây có thân rễ, lá kép lông chim, dạng thuôn bầu dục nhọn hai đầu, màu xanh lục sáng bóng, dày rất đẹp. Cụm hoa dạng mo, mọc từ gốc, ngắn.
+
+Cây kim tiền với những lá vươn cao, sung sức, biểu tượng của sự thịnh vượng, may mắn cho chủ nhân khi bày trong nhà, đặc biệt là khi cây nở hoa. Cây cảnh còn hay được các bậc quản lý, lãnh đạo dùng để bày biện trong phòng làm việc."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="216dp" />
+
+    <Button
+        android:id="@+id/btnout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="THOÁT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="407dp"
+        android:layout_height="177dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnout1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt9"
+        app:layout_constraintVertical_bias="0.4"
+        app:srcCompat="@drawable/cay2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

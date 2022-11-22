@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5">
+
+    <TextView
+        android:id="@+id/txt10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:text="Cây bạch mã hoàng tử"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="Loại cây: Cây cảnh"
+        app:layout_constraintBottom_toTopOf="@+id/txt12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt10"
+        app:layout_constraintVertical_bias="0.106" />
+
+
+    <TextView
+        android:id="@+id/txt12"
+        android:layout_width="410dp"
+        android:layout_height="83dp"
+        android:text="Cây bạch mã hoàng tử là loại cây chịu bóng tốt. Cây mọc bụi vì cây con thường đâm chồi từ thân cây mẹ. Lá xanh, thân và cuốn lá màu trắng, tán lá lớn. Gân và bẹ lá cây bạch mã hoàng tử màu trắng tạo nên điểm thu hút dễ nhớ.
+
+Nhiều người cho rằng nên đặt cây cảnh bạch mã hoàng tử nơi hướng chính Đông để đón ánh sáng tự nhiên, mang đến nguồn năng lượng tích cực, may mắn, phát tài. Đồng thời giúp cây có thể quang hợp tốt và lọc không khí trong nhà.
+
+"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="216dp" />
+
+    <Button
+        android:id="@+id/btnout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="THOÁT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="407dp"
+        android:layout_height="177dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt12"
+        app:layout_constraintVertical_bias="0.4"
+        app:srcCompat="@drawable/cay3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
